@@ -1,18 +1,8 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.common.by import By
-
 import time
 from datetime import datetime, timedelta
 import pandas as pd
 import requests
-from bs4 import BeautifulSoup
-from stock_app.static.finance_py.const import base_url, analysis_url, get_headers
-
-import numpy as np
-import scipy.stats as stats
-from scipy.stats import gmean, hmean, norm
+from static.finance_py.const import base_url, analysis_url, get_headers
 
 def exchange_rate(fromdate, todate):
     # Chuyển đổi ngày từ chuỗi sang đối tượng datetime
