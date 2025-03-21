@@ -2,3 +2,6 @@ django
 gunicorn
 whitenoise
 pillow
+pandas
+requests
+fake_useragent
