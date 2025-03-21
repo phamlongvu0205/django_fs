@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = ["*"]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://djangofs-production.up.railway.app",
+    "https://financial-statement.up.railway.app",
     "http://127.0.0.1",
     "http://localhost",
 ]
