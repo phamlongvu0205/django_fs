@@ -65,7 +65,7 @@ def financial_statement(request):
 
             # Ghi dữ liệu vào file CSV
             output = io.StringIO()
-            df_clean.to_csv(output, index=False, encoding="utf-8", sep=";", decimal=",")
+            df_clean.to_csv(output, index=False, encoding="utf-8", sep=",", decimal=".")
 
             # df_clean.to_csv(
             #     path_or_buf=output,
